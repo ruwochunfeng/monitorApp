@@ -1,0 +1,31 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="482" width="642" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="177.647048" width="326.470568" y="106.509801" x="90.912668" stroke-width="1.5" stroke="#000" fill="#ffff00"/>
+  <rect id="svg_2" height="98.823523" width="124.705875" y="105.588232" x="294.714795" stroke-width="1.5" stroke="#000" fill="#5656ff"/>
+  <rect stroke="#000" id="svg_3" height="111.176466" width="25.882351" y="116.568621" x="110.294129" stroke-width="1.5" fill="#0fffff"/>
+  <rect id="svg_4" height="112.352934" width="29.999998" y="117.23529" x="156.35295" stroke-width="1.5" stroke="#000" fill="#0fffff"/>
+  <rect stroke="#000" id="svg_5" height="112.196072" width="31.764704" y="117.725486" x="207.921574" stroke-width="1.5" fill="#0fffff"/>
+  <rect stroke="#000" id="svg_6" height="18.999996" width="109.333322" y="264.999975" x="130.333309" stroke-opacity="null" stroke-width="1.5" fill="#0000bf"/>
+  <rect id="svg_7" height="33.666663" width="70.999993" y="240.999975" x="322.999956" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#0000ff"/>
+  <rect id="svg_8" height="123.333321" width="78.999992" y="105.666656" x="418.999946" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#7f7f00"/>
+  <text transform="rotate(89.55343627929688 123.6041641235352,177.078125) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_10" y="180.727244" x="108.606046" stroke-width="0" stroke="#000" fill="#000000">办公区</text>
+  <text style="cursor: move;" transform="rotate(89.55343627929688 123.59375000000003,177.07812499999997) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_11" y="180.727244" x="108.606046" stroke-width="0" stroke="#000" fill="#aa2929">办公区</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_12" y="277.878788" x="169.69697" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">书柜</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_13" y="260.909091" x="347.878788" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">书桌</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_14" y="154.545455" x="328.181818" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">教师办公区</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_15" y="170.30303" x="433.636363" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">教师办公区</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_16" y="256.969697" x="90" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">门口</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_17" y="258.181819" x="397.878788" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">门口</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_18" y="219.69697" x="397.272727" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">门口</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="10" id="svg_19" y="237.272727" x="470.606061" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ff0000">门口</text>
+ </g>
+</svg>
