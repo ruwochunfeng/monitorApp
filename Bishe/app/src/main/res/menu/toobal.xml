@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backup"
+        android:title="电子科技大学C1-403"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/backup1"
+        android:title="模式2"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/backup2"
+        android:title="登陆状态信息"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/backup3"
+        android:title="Ping测试服务"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/backup4"
+        android:title="增加视频节点"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/backup5"
+        android:title="其他视频流支持"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/backup7"
+        android:title="远程登录"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/backup6"
+        android:title="室内地图"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/backup8"
+        android:title="关于"
+        app:showAsAction="never"
+        />
+
+
+
+
+</menu>

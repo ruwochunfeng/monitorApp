@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ping"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.zhoubing.bishe.PingActivity">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:background="#374858"
+        android:id="@+id/ping"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+
+
+    </com.github.mikephil.charting.charts.LineChart>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp">
+            <TextView
+                android:id="@+id/mubiao"
+                android:text="目标选择："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/mubiao_shezhi"
+                android:gravity="center"
+                android:text="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp">
+            <TextView
+                android:id="@+id/changdu"
+                android:text="长度："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/changdu_ceshi"
+                android:gravity="center"
+                android:text="64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp">
+            <TextView
+                android:id="@+id/ceshishu"
+                android:text="节点："
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/jiedian_ceshi"
+                android:text="50"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/ssssss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ping开始"
+            />
+        <TextView
+            android:id="@+id/diubao"
+            android:textColor="@color/color_green"
+            android:text="丢包率：--"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sjo"
+            android:layout_marginLeft="3dp"
+
+            android:textSize="15sp"
+            android:textColor="@color/color_green"
+            android:text="平均延时：--"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollview_ping"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+
+                android:id="@+id/receiver_ping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/back_sheji"
+                android:textSize="15sp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

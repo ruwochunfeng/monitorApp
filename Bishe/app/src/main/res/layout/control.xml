@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/spinner_tongdao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/tongdao">
+    </Spinner>
+    <TextView
+        android:id="@+id/yanshi"
+        android:layout_toRightOf="@+id/spinner_tongdao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_green"
+        android:text="延迟："/>
+
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:id="@+id/se1"
+        android:layout_below="@+id/spinner_tongdao"
+        android:layout_height="200dp">
+
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="150"
+            app:theme="@style/AlertDialog.AppCompat.Light"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="速度"/>
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:id="@+id/se2"
+        android:layout_toRightOf="@+id/se1"
+        android:layout_below="@+id/spinner_tongdao"
+        android:layout_height="200dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="150"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="转角"/>
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:id="@+id/se3"
+        android:layout_toRightOf="@+id/se2"
+        android:layout_below="@+id/spinner_tongdao"
+        android:layout_height="200dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="180"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="舵机"/>
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:id="@+id/se4"
+        android:layout_toRightOf="@+id/se3"
+        android:layout_below="@+id/spinner_tongdao"
+        android:layout_height="200dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="180"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="舵机"/>
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/se4"
+        android:id="@+id/se5"
+        android:layout_below="@+id/spinner_tongdao"
+        android:layout_height="200dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="180"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="舵机"/>
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:id="@+id/se6"
+        android:layout_toRightOf="@+id/se4"
+        android:layout_below="@+id/spinner_tongdao"
+        android:layout_height="200dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:max="180"
+            android:splitTrack="false"
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="舵机"/>
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+    <!--<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:id="@+id/se7"-->
+        <!--android:layout_toRightOf="@+id/se5"-->
+        <!--android:layout_below="@+id/spinner_tongdao"-->
+        <!--android:layout_height="200dp">-->
+        <!--<com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar-->
+            <!--android:id="@+id/mySeekBar6"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:max="150"-->
+            <!--android:splitTrack="false"-->
+            <!--app:seekBarRotation="CW270" /> &lt;!&ndash; Rotation: CW90 or CW270 &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="舵机"/>-->
+    <!--</com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>-->
+
+    <com.zhoubing.bishe.view.Yaokongqi1
+        android:id="@+id/yao"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <Button
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:text="自定义命令"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

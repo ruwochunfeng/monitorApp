@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.zhoubing.bishe.MoshiFour">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/jiankong_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/jiankong1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="200dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                        android:id="@+id/tongdao_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="fitXY"
+                        android:layout_margin="2dp"
+                        android:background="#282e41"/>
+                        <TextView
+                            android:text="通道一"
+                            android:textColor="@color/color_red"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="200dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/tongdao_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:layout_margin="2dp"
+                            android:background="#282e41"/>
+                        <TextView
+                            android:text="通道二"
+                            android:textColor="@color/color_red"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_below="@+id/jiankong1"
+                    android:id="@+id/jiankong2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+                    <RelativeLayout
+                        android:layout_width="200dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/tongdao_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:layout_margin="2dp"
+                            android:background="#282e41"/>
+                        <TextView
+                            android:text="通道三"
+                            android:textColor="@color/color_red"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="200dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/tongdao_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:layout_margin="2dp"
+                            android:background="#282e41"/>
+                        <TextView
+                            android:text="通道四"
+                            android:textColor="@color/color_red"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/anniu"
+            android:layout_below="@+id/jiankong_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#282e42"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/photosmall"
+                android:background="#282e42"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/settingsmall"
+                android:background="#282e42"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/chuanggqni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chuanganqismall"
+                android:background="#282e42"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/mapsmall"
+                android:background="#282e42"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/controlsmall"
+                android:background="#282e42"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_below="@+id/anniu"
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

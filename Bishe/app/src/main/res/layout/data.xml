@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_marginTop="23dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/receiver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_orange"
+                    android:textSize="10sp"
+                    />
+            </RelativeLayout>
+        </ScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/shezhi"
+                android:textColor="@color/color_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="数据接收区："/>
+
+            <Button
+                android:layout_alignParentRight="true"
+                android:id="@+id/button_begin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始/暂停"/>
+            <Button
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button_begin"
+                android:id="@+id/button_clera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清空"/>
+            <Button
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button_clera"
+                android:id="@+id/button_tubiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图表模式"/>
+            <Button
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/button_tubiao"
+                android:id="@+id/button_dongtai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="数据添加"/>
+
+        </RelativeLayout>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="270dp"
+            android:background="@color/white"
+            android:visibility="invisible"
+            android:layout_height="match_parent">
+
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+    </FrameLayout>
+
+</LinearLayout>

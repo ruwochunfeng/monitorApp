@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting_activitu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.zhoubing.bishe.SettingActivitu">
+
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:background="@color/black_semi_transparent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/retu"
+            android:gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/retu"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            />
+        <LinearLayout
+            android:id="@+id/lin_lin"
+          android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="基本设置"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="初始视频源设置"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="灵敏度设置"/>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="录制设置"/>
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="地理设置"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/comment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhoubing.bishe.AboutActivity">
+    <TextView
+        android:text="关于"
+        android:id="@+id/guanyu"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/guanyu_1"
+        android:layout_below="@id/guanyu"
+        android:text="1.本APP版权为电子科技大学C1-403所有，所有内容为该实验室学生所作"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/guanyu_2"
+        android:layout_below="@id/guanyu_1"
+        android:text="2.功能模块包括多通道视频数据、拍照、遥控功能、地图显示功能、Ping功能测试、ssh远程登录功能。并在视频兼容上支持市面上大部分的视频文件和格式"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/guanyu_3"
+        android:layout_below="@id/guanyu_2"
+        android:text="3.技术支持：xxxxxxxxxx@qq.com,电话：xxxxxxxxxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
